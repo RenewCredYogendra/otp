@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@frontend/*": ["./frontend/*"],
+      "@backend/*": ["./backend/*"]
     }
   },
   "include": [
